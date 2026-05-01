@@ -1,20 +1,20 @@
 class Clew < Formula
   desc "A lightweight, local, git-native project tracker for humans and agents."
   homepage "https://github.com/npatten/Clew"
-  version "0.1.0"
+  version "0.1.1"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/npatten/Clew/releases/download/v0.1.0/clew-aarch64-apple-darwin.tar.xz"
-      sha256 "b5d65fd854f150c0c33f5937475b6154cb1e5e1cbd463450ae88a70faca94c1b"
+      url "https://github.com/npatten/Clew/releases/download/v0.1.1/clew-aarch64-apple-darwin.tar.xz"
+      sha256 "52790274b96aeb217662d931413b980589cac8f6845240cc1c89eb4d43629c6a"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/npatten/Clew/releases/download/v0.1.0/clew-x86_64-apple-darwin.tar.xz"
-      sha256 "650ef2c89e1ffd594ea44610c664e35d69fcd22738a7544e46f17dd608a4e4b7"
+      url "https://github.com/npatten/Clew/releases/download/v0.1.1/clew-x86_64-apple-darwin.tar.xz"
+      sha256 "22caa3158d5ab2421a0e85ece37e32c698d8cdab605f68eb0ae04507f7c0c007"
     end
   end
   if OS.linux? && Hardware::CPU.intel?
-    url "https://github.com/npatten/Clew/releases/download/v0.1.0/clew-x86_64-unknown-linux-gnu.tar.xz"
-    sha256 "3fcc25f039dfc8ac99cfe0197097eea84fbd19712aad23f2b13e82a0aedc2b73"
+    url "https://github.com/npatten/Clew/releases/download/v0.1.1/clew-x86_64-unknown-linux-gnu.tar.xz"
+    sha256 "17299d3c558e0806c48686d56c9638620355117d974b4c7646eb4721a9edf9a3"
   end
   license "MIT"
 
